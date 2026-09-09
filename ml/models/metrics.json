@@ -1,0 +1,120 @@
+{
+  "cost": {
+    "selected_model": "random_forest",
+    "metrics": {
+      "logistic": {
+        "accuracy": 0.8023,
+        "precision": 0.6137,
+        "recall": 0.7787,
+        "f1": 0.6864,
+        "roc_auc": 0.8822,
+        "pr_auc": 0.7729,
+        "confusion_matrix": [
+          [
+            753,
+            175
+          ],
+          [
+            79,
+            278
+          ]
+        ]
+      },
+      "random_forest": {
+        "accuracy": 0.8374,
+        "precision": 0.6968,
+        "recall": 0.7339,
+        "f1": 0.7149,
+        "roc_auc": 0.8845,
+        "pr_auc": 0.7834,
+        "confusion_matrix": [
+          [
+            814,
+            114
+          ],
+          [
+            95,
+            262
+          ]
+        ]
+      }
+    },
+    "train_projects": 1304,
+    "test_projects": 435,
+    "features": [
+      "original_cost",
+      "cumulative_expenditure",
+      "expenditure_ratio",
+      "physical_progress",
+      "progress_gap",
+      "absolute_progress_gap",
+      "project_age_months",
+      "months_to_target_completion",
+      "progress_velocity",
+      "expenditure_velocity",
+      "expenditure_ratio_velocity",
+      "state",
+      "agency",
+      "snapshot_month"
+    ]
+  },
+  "time": {
+    "selected_model": "random_forest",
+    "metrics": {
+      "logistic": {
+        "accuracy": 0.8861,
+        "precision": 0.9623,
+        "recall": 0.8905,
+        "f1": 0.925,
+        "roc_auc": 0.9367,
+        "pr_auc": 0.977,
+        "confusion_matrix": [
+          [
+            194,
+            29
+          ],
+          [
+            91,
+            740
+          ]
+        ]
+      },
+      "random_forest": {
+        "accuracy": 0.9061,
+        "precision": 0.9442,
+        "recall": 0.9362,
+        "f1": 0.9402,
+        "roc_auc": 0.9525,
+        "pr_auc": 0.9862,
+        "confusion_matrix": [
+          [
+            177,
+            46
+          ],
+          [
+            53,
+            778
+          ]
+        ]
+      }
+    },
+    "train_projects": 1066,
+    "test_projects": 356,
+    "features": [
+      "original_cost",
+      "cumulative_expenditure",
+      "expenditure_ratio",
+      "physical_progress",
+      "progress_gap",
+      "absolute_progress_gap",
+      "project_age_months",
+      "months_to_target_completion",
+      "progress_velocity",
+      "expenditure_velocity",
+      "expenditure_ratio_velocity",
+      "state",
+      "agency",
+      "snapshot_month"
+    ]
+  }
+}
